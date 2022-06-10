@@ -108,7 +108,7 @@ def tianbao(id, sheng, shi, qu):
         if res.text:
             print(name + '打卡成功')
     except:
-        print(name + '打卡失败')
+        print(id + '打卡失败')
         return
 
 
